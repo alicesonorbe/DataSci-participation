@@ -1,4 +1,4 @@
-class site: https://github.com/USF-Psych-DataSci-2020
+class site: https://github.com/USF-Psych-DataSci
 
 my participation repository: https://github.com/alicesonorbe/DataSci-participation
 
