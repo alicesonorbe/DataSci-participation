@@ -1,5 +1,15 @@
-class site: https://github.com/USF-Psych-DataSci
 
-my participation repository: https://github.com/alicesonorbe/DataSci-participation
+## Navigating Github
 
-my profile page on github: https://github.com/alicesonorbe
+*class site: https://github.com/USF-Psych-DataSci-2020
+
+*my participation repository: https://github.com/alicesonorbe/DataSci-participation
+
+*my profile page on github: https://github.com/alicesonorbe
+
+* Making a change! 
+* bullet point!
+ *subheading!
+ 
+ > hey now
+ > you're an all star :)
