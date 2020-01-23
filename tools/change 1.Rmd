@@ -1,0 +1,44 @@
+---
+title: "R Markdown!"
+author: Aliceson Orbe
+date: Last Updated `r format(Sys.time(), "%d %B %Y")`
+output: 
+ html_document:
+    theme: darkly
+    toc: TRUE
+---
+
+```{r}
+2+2
+```
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+```
+ 
+```{r}
+library('gapminder')
+# library("DT")
+# library ("tibble")
+```
+
+```{r}
+mtcars
+mean(mtcars$mpg)
+```
+
+```{r}
+mean(mtcars$cyl)
+```
+
+```{r gapminder view, echo=FALSE}
+gapminder
+```
+
+
