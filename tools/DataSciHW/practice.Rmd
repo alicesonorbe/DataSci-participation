@@ -1,0 +1,48 @@
+---
+title: "testing"
+author: "Aliceson Orbe"
+date: "1/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Data Structure**
+There are 28 columns and 2800 observation in this dataset, as shown below:
+```{r data structure, echo = FALSE}
+str(psych::bfi)
+```
+## *Variables*
+There are 28 variables arranged in columns. Here are the names of all variables:
+```{r variable names, echo = FALSE}
+names(psych::bfi)
+```
+## *Participants*
+There are 2800 participants in this dataset. Each row represents one participant.
+```{r number of rows, echo = FALSE}
+nrow(psych::bfi)
+```
+### *Age*
+The mean age of participant is:
+```{r mean age, echo = FALSE}
+mean(psych::bfi$age)
+```
+With a Standard Deviation of:
+```{r SD age, echo = FALSE}
+sd(psych::bfi$age)
+```
+### *Sex*
+There are twice as many females as males in this dataset.
+
+_\*The following functions were inspired by [RoyalTS's](https://stackoverflow.com/questions/23000661/how-to-realize-countifs-function-excel-in-r/23000756) answer on Stack OverFlow\*_
+
+The number of males in the dataset is:
+```{r number of males, echo = FALSE}
+sum(psych::bfi$gender == '1', na.rm=TRUE)
+```
+The number of females in the dataset is:
+```{r number of females, echo = FALSE}
+sum(psych::bfi$gender == '2', na.rm=TRUE)
+```

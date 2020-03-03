@@ -1,0 +1,55 @@
+
+
+---
+title: "HW 01"
+author: "Aliceson Orbe"
+date: "1/25/2020"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**This dataframe displays different features for 32 types of car.**
+
+```{r}
+mtcars
+```
+
+**There are 32 rows, for 32 cars.**
+
+```{r}
+nrow(mtcars)
+```
+
+**Here are the first few rows singled out.**
+
+```{r}
+head(mtcars)
+```
+
+**These numbers are just the second feature column layed out, showing the number of cylinders in each car.**
+
+```{r}
+(mtcars$cyl)
+```
+
+**This number is the average of all those cylinders. Funky.**
+
+```{r}
+mean(mtcars$cyl)
+```
+
+**Here's the standard deviation for the miles per gallon.**
+
+```{r}
+sd(mtcars$mpg)
+```
+
+**And here's that same number, rounded to 3 decimal places.**
+
+```{r}
+round(sd(mtcars$mpg), digits = 3)
+```
+
